@@ -31,7 +31,7 @@ const App = () => {
         <Route path="/ventas/:orderId" element={<OrderDetails />} />
         {/* <Route path="/productosOlfebreria" element={<Productos_olf />} />
         <Route path="/productosCampanas" element={<ProductInterface />} /> */}
-        <Route path="*" element={<ErrorPage />} />
+        {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
     </Router>
   );
